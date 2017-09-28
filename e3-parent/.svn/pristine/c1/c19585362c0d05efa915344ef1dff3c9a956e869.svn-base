@@ -1,0 +1,2 @@
+#login page url
+LOGIN_PAGE_URL=http://localhost:8088/page/login

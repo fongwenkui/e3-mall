@@ -1,0 +1,48 @@
+
+
+[INFO ] 2017-08-23 12:17:40,997 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2017-08-23 12:17:41,175 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing Root WebApplicationContext: startup date [Wed Aug 23 12:17:41 CST 2017]; root of context hierarchy
+
+
+[INFO ] 2017-08-23 12:17:41,308 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:347)
+Root WebApplicationContext: initialization completed in 287 ms
+
+
+[INFO ] 2017-08-23 12:17:41,363 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+FrameworkServlet 'e3-item-web': initialization started
+
+
+[INFO ] 2017-08-23 12:17:41,366 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing WebApplicationContext for namespace 'e3-item-web-servlet': startup date [Wed Aug 23 12:17:41 CST 2017]; parent: Root WebApplicationContext
+
+
+[INFO ] 2017-08-23 12:17:41,367 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/springmvc.xml]
+
+
+[INFO ] 2017-08-23 12:17:41,790 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2017-08-23 12:17:42,003 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from class path resource [conf/resource.properties]
+
+
+[INFO ] 2017-08-23 12:17:42,030 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2017-08-23 12:17:42,625 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-item-web-servlet': startup date [Wed Aug 23 12:17:41 CST 2017]; parent: Root WebApplicationContext
+
+
+[INFO ] 2017-08-23 12:17:42,670 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-item-web-servlet': startup date [Wed Aug 23 12:17:41 CST 2017]; parent: Root WebApplicationContext
+
+
+[INFO ] 2017-08-23 12:17:42,793 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508)
+FrameworkServlet 'e3-item-web': initialization completed in 1430 ms
